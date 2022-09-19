@@ -16,12 +16,13 @@ variables:
 
 steps:
 
-
 - task: SonarCloudPrepare@1
   inputs:
     SonarCloud: 'SonarCloud'
     organization: 'sonarcloud0107'
     scannerMode: 'MSBuild'
+    projectKey: 'Testsonarcloud01'
+    projectName: 'Testsonarcloud01'
     
 - task: NuGetToolInstaller@1
 
