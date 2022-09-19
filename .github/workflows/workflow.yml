@@ -17,5 +17,5 @@ jobs:
           uses: Azure/pipelines@v1
           with:
             azure-devops-project-url: https://dev.azure.com/manisankaraz400/ManiAz400
-            azure-pipeline-name: 'TestAzure400.WebApplication2'
+            azure-pipeline-name: 'WebApplication3 (1)'
             azure-devops-token: ${{ secrets.AZURE_DEVOPS_TOKEN }}
